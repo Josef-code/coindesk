@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+  }
+
+.container{
+    background-color: #3D405B;
+    width: 40%;
+    margin-top: 30px;
+    color: #FFFFFF;
+    height: 500px;
+    border-radius: 10px;
+}
+.container h2 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.container p {
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    padding: 0 10px 0 10px;
+    color: #F4F1DE
+}  
+
+.container h5 {
+    margin-top: 50px;
+}
+
+.coins {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.coins .currencies {
+    background-color: #F4F1DE;
+    padding: 20px;
+}
