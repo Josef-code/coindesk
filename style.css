@@ -2,12 +2,16 @@
     box-sizing: border-box;
   }
 
+body{
+    background-color: #F2CC8F;
+}
+
 .container{
     background-color: #3D405B;
     width: 40%;
     margin-top: 30px;
     color: #FFFFFF;
-    height: 500px;
+    height: auto;
     border-radius: 10px;
 }
 .container h2 {
@@ -31,9 +35,25 @@
     flex-direction: column;
     justify-content: space-evenly;
     gap: 10px;
+    margin: 10px;
 }
 
 .coins .currencies {
-    background-color: #F4F1DE;
+    background-color: #E07A5F;
     padding: 20px;
+    border-radius: 5px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.coins .currencies .prices {
+    float: right;
+}
+
+footer{
+    text-align: center;
+}
+
+@media only screen and (max-width:600px) {
+    .container {
+        width: 90%;
+    }
 }
